@@ -25,7 +25,7 @@ def setup
 
   puts "File: #{input_file}"
   puts "Target lang: #{output_lang}"
-  puts "Mode: #{mode} (1 = CSV, 2 = full)"
+  puts "Mode: #{mode} (1 = full, 2 = CSV-like)"
   puts "Batch size: #{batch_size}"
   puts "All good? [y/N]"
   sleep 1
